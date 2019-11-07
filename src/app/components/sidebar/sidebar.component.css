@@ -1,0 +1,34 @@
+.sidebar-menu {
+  list-style-type: none;
+  display: table-cell;
+  text-align: left;
+  font-size: 15px;
+}
+.sidebar-menu p {
+  padding: 13px;
+  margin-top: 5px;
+  display: table-cell;
+  text-align: left;
+  font-weight: bold;
+}
+li {
+  padding: 11px;
+  font-family: "Roboto", sans-serif;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+#sidebar-container {
+  background-color: #f3f3f3;
+  padding-top: 20px;
+}
+mat-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+}

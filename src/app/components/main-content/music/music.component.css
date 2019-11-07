@@ -1,0 +1,13 @@
+.card {
+  border-radius: 15px;
+  border: none;
+}
+img {
+  border-radius: 15px;
+}
+.card-title {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  vertical-align: middle;
+  font-weight: bold;
+}
