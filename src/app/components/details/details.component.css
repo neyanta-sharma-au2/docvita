@@ -1,0 +1,18 @@
+.sidebar-menu p {
+  padding: 13px;
+  margin-top: 5px;
+  display: table-cell;
+  text-align: left;
+  font-weight: bold;
+}
+
+mat-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+}

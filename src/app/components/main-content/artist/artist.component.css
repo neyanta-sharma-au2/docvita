@@ -1,0 +1,21 @@
+img {
+  border-radius: 10px;
+  padding: 5px;
+  width: 100px;
+}
+p {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  vertical-align: middle;
+  font-weight: bold;
+}
+h6,
+a {
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  vertical-align: middle;
+  font-weight: bold;
+}
+.row {
+  border-radius: 7px;
+}

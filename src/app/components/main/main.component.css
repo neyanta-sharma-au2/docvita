@@ -1,0 +1,9 @@
+#sidebar-container {
+  background-color: #f3f3f3;
+  padding-top: 20px;
+}
+#detail-container {
+  background-color: #f8f8f8;
+  border-left: 1px solid lightgray;
+  padding-top: 20px;
+}

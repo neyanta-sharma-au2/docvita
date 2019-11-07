@@ -1,1 +1,28 @@
-<p>tracks works!</p>
+<h5 class="">Tracks for you</h5>
+<div class="card my-3" *ngFor="let track of tracks">
+  <div class="row " id="trackList">
+    <div class="col ">
+      <img
+        class="p-2"
+        src="{{ track.img }}"
+        alt=""
+        style=" border-radius: 50%; width:100%;"
+      />
+    </div>
+    <div class="col">
+      <span class="">{{ track.song_name }}</span>
+    </div>
+    <div class="col">
+      <span>{{ track.artist }}</span>
+    </div>
+
+    <div class="col text-primary ">
+      <span> {{ track.duration }}</span>
+    </div>
+    <div class="col">
+      <button mat-mini-fab color="basic" id="PlayButton">
+        <mat-icon>play_arrow</mat-icon>
+      </button>
+    </div>
+  </div>
+</div>

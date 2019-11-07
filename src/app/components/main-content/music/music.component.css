@@ -1,6 +1,7 @@
 .card {
   border-radius: 15px;
   border: none;
+  background-color: transparent;
 }
 img {
   border-radius: 15px;

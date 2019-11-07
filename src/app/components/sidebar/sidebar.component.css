@@ -21,6 +21,7 @@ li {
 #sidebar-container {
   background-color: #f3f3f3;
   padding-top: 20px;
+  overflow: hidden;
 }
 mat-icon {
   display: inline-block;
