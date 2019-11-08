@@ -13,7 +13,7 @@ export class MusicComponent implements OnInit {
     this.musics = [
       {
         img: "https://m.media-amazon.com/images/I/51gZ-n41nIL._AA256_.jpg",
-        song_name: "Lorde-Melodrama",
+        song_name: "Lorde",
         genre: "Pop Music"
       },
       {
@@ -37,7 +37,7 @@ export class MusicComponent implements OnInit {
       {
         img:
           "https://at-cdn-s02.audiotool.com/2018/03/24/documents/fiscmh5y/0/cover256x256-23d7c5cf7deb447ea8835d81c13f8fa5.jpg",
-        song_name: "Sweet But Psycho",
+        song_name: "Sweet",
         genre: "Pop Music"
       }
     ];

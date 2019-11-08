@@ -7,12 +7,14 @@
         src="{{ track.img }}"
         alt=""
         style=" border-radius: 50%; width:100%;"
-      />
+      /><span class="">{{ track.song_name }}</span>
     </div>
-    <div class="col">
-      <span class="">{{ track.song_name }}</span>
-    </div>
-    <div class="col">
+    <div class="col"></div>
+    <div
+      class="col ml-0 pl-0"
+      style="display:flex;
+    justify-content:flex-start;align-items:center"
+    >
       <span>{{ track.artist }}</span>
     </div>
 

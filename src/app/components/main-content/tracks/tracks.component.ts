@@ -34,7 +34,7 @@ export class TracksComponent implements OnInit {
       },
       {
         img: "https://m.media-amazon.com/images/I/51l0GCRo9OL._AA256_.jpg",
-        song_name: "Make it sweet",
+        song_name: "Make it ",
         artist: "Old Dominion",
         duration: 4.34
       }

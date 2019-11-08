@@ -19,3 +19,8 @@ a {
 .row {
   border-radius: 7px;
 }
+h5 {
+  font-family: "Roboto", sans-serif;
+  vertical-align: middle;
+  font-weight: bold;
+}
