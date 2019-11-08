@@ -1,1 +1,12 @@
-<p>albums works!</p>
+<div class="card-deck m-5">
+  <div class="card" *ngFor="let album of albums">
+    <img src="{{ album.thumbnailUrl }}" class="card-img-top" alt="" />
+
+    <div class="card-body">
+      <h5>Album Title{{ album.title }}</h5>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted"> Album Id:{{ album.id }}</small>
+    </div>
+  </div>
+</div>

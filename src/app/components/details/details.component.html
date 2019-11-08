@@ -2,7 +2,6 @@
   <div class="nav flex-sm-column ">
     <h5 class="text-center">Artist</h5>
     <div *ngIf="artist.artist">
-      <h1>hello</h1>
       <div class="row m-2 mt-2" style="border-bottom:1px solid lightgray">
         <div class="col text-center ">
           <img src="{{ artist.artist?.img }}" alt="" id="artist-img" />
@@ -10,10 +9,51 @@
           <h5 class="my-2">{{ artist.artist?.artist }}</h5>
           <p class="mb-1 text-primary">{{ artist.artist?.rank }}</p>
 
-          <p>{{ artist.artist?.followers }}</p>
-          <p>{{ artist.artist?.following }}</p>
-          <p>{{ artist.artist?.likes }}</p>
-          <p>{{ artist.artist?.playlist }}</p>
+          <div class="details">
+            <mat-icon
+              style="
+               border-radius: 50%;
+              color:white;
+              background-color:darkblue;
+            "
+              >person</mat-icon
+            >
+            Followers
+            <p>{{ artist.artist?.followers }}</p>
+          </div>
+          <div class="details">
+            <mat-icon
+              style="
+               border-radius: 50%;
+              background-color:yellow;
+              color:blue;
+              "
+              >person_add</mat-icon
+            >
+            Following
+            <p>{{ artist.artist?.following }}</p>
+          </div>
+          <div class="details">
+            <mat-icon
+              style="
+            border-radius: 50%;
+              background-color:pink; color:magenta"
+              >thumb_up_alt</mat-icon
+            >
+            Likes
+            <p>{{ artist.artist?.likes }}</p>
+          </div>
+          <div class="details">
+            <mat-icon
+              style="
+               border-radius: 50%;
+              background-color:black;
+              color:pink;"
+              >album</mat-icon
+            >
+            Playlist
+            <p>{{ artist.artist?.playlist }}</p>
+          </div>
         </div>
       </div>
     </div>

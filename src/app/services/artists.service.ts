@@ -15,10 +15,10 @@ export class ArtistsService {
         rank: "#trending",
         artist: "David Guetta",
         genre: "Rap",
-        followers: "200 Followers",
-        following: "12 Following",
-        likes: "100 Likes",
-        playlist: "4 Playlist"
+        followers: "200 ",
+        following: "12 ",
+        likes: "100 ",
+        playlist: "4 "
       },
       {
         id: 2,
@@ -26,10 +26,10 @@ export class ArtistsService {
         rank: "#1",
         artist: "Fabia Arke",
         genre: "Hip Hop",
-        followers: "100 Followers",
-        following: "40 Following",
-        likes: "40 Likes",
-        playlist: "9 Playlist"
+        followers: "100 ",
+        following: "40 ",
+        likes: "40 ",
+        playlist: "9 "
       },
       {
         id: 3,
@@ -37,10 +37,10 @@ export class ArtistsService {
         rank: "#4",
         artist: "Nelson Cross",
         genre: "Jazz",
-        followers: "250 Followers",
-        following: "30 Following",
-        likes: "80 Likes",
-        playlist: "12 Playlist"
+        followers: "250 ",
+        following: "30 ",
+        likes: "80 ",
+        playlist: "12 "
       },
       {
         id: 4,
@@ -48,10 +48,10 @@ export class ArtistsService {
         rank: "#Best Work",
         artist: "Asar Mandel",
         genre: "Slow",
-        followers: "100 Followers",
-        following: "25 Following",
-        likes: "300 Likes",
-        playlist: "6 Playlist"
+        followers: "100 ",
+        following: "25 ",
+        likes: "300 ",
+        playlist: "6 "
       }
     ];
   }

@@ -34,3 +34,7 @@ h5 {
   border-radius: 50%;
   width: 70%;
 }
+.details {
+  display: flex;
+  justify-content: space-between;
+}
