@@ -1,23 +1,28 @@
 <div class="py-2  flex-grow-1">
   <div class="nav flex-sm-column ">
     <h5 class="text-center">Artist</h5>
-    <div class="row m-2 mt-4" style="border-bottom:1px solid lightgray">
-      <div class="col text-center ">
-        <img src="{{ artist.artist?.img }}" alt="" id="artist-img" />
-        <h5 class="my-2">{{ artist.artist?.artist }}</h5>
-        <p class="mb-1 text-primary">{{ artist.artist?.rank }}</p>
+    <div *ngIf="artist.artist">
+      <h1>hello</h1>
+      <div class="row m-2 mt-2" style="border-bottom:1px solid lightgray">
+        <div class="col text-center ">
+          <img src="{{ artist.artist?.img }}" alt="" id="artist-img" />
 
-        <p>{{ artist.artist?.followers }}</p>
-        <p>{{ artist.artist?.following }}</p>
-        <p>{{ artist.artist?.likes }}</p>
-        <p>{{ artist.artist?.playlist }}</p>
+          <h5 class="my-2">{{ artist.artist?.artist }}</h5>
+          <p class="mb-1 text-primary">{{ artist.artist?.rank }}</p>
+
+          <p>{{ artist.artist?.followers }}</p>
+          <p>{{ artist.artist?.following }}</p>
+          <p>{{ artist.artist?.likes }}</p>
+          <p>{{ artist.artist?.playlist }}</p>
+        </div>
       </div>
     </div>
-    <div class="row text-center mt-3">
+
+    <div class="row text-center">
       <div class="col px-0">
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc4ElvDadh09pSTNjNgzxK3N0nZIdb7DhVHMDUsc7DPR6hDSNYIg&s"
-          style=" border-radius: 50%; width:50%;"
+          style=" border-radius: 50%; width:70%;"
           class="double-border"
         />
         <h5 class="mt-5">Take it from me</h5>
