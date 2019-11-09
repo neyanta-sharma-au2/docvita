@@ -22,7 +22,8 @@ export class ArtistsService {
       },
       {
         id: 2,
-        img: "http://buben.fm/img/artist/256/194214.png",
+        img:
+          "https://omny.fm/shows/starving-artist/image.jpg?t=1490534200&size=Small",
         rank: "#1",
         artist: "Fabia Arke",
         genre: "Hip Hop",
