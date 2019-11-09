@@ -1,5 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { Artist } from "../../models/Artist";
+
 import { ArtistsService } from "../../services/artists.service";
 import { Subscription } from "rxjs";
 @Component({
